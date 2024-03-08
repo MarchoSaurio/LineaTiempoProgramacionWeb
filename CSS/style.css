@@ -1,0 +1,117 @@
+
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer{
+    padding: 1em;
+    color: white;
+    background-color: #2552E6;
+    clear: left;
+    text-align: center;
+}
+
+nav{
+    float: left;
+    min-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+article{
+    margin-left: 170px;
+    padding: 1em;
+    padding-top: .5rem;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+article img {
+    float: left; 
+    min-width: 160px;
+    margin: 0;
+    padding: 1em;
+    border-radius: 20%;
+} 
+
+.img__rigth{
+    float: right; 
+    margin-right: 50px;
+}
+
+.dates__title{
+    color: #3525E6;
+    font-size: 30px;
+}
+p{
+    padding-top: 17px;
+    padding-right: 50px;
+    padding-left: 50px;;
+    font-size: 24px;
+}
+
+/* Relajo Bonola */
+
+#sidebar {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 740px;
+    background: #2552E6;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  #sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #sidebar ul li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-bottom: 1px solid #555;
+  }
+
+  #sidebar ul li:hover {
+    background: #d8d8d8;
+  }
+
+  #sidebar ul li ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #sidebar ul li:hover ul {
+    display: block;
+  }
+
+  #sidebar ul li ul li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    background: #fff;
+    border-bottom: none;
+  }
+
+  #content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
